@@ -84,7 +84,7 @@ body * {
   animation: slide-out 0.2s;
 }
 .light #switch button {
-  animation: slide-in 0.2s;forwards;
+  animation: slide-in 0.2s forwards;
 }
 #switch button:hover {
   background-color: var(--highlight-color);
@@ -176,12 +176,11 @@ footer {
   }
 }
 
-@keyframes slide-out{
-  from{
-    left:50%;
-    to{
-      left:0;
+@keyframes slide-out {
+  from {
+    left: 50%;
+    to {
+      left: 0;
     }
   }
 }
-
